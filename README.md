@@ -1,7 +1,7 @@
 # Dimensionality Reduction and Clustering Tutorial  
 ### PCA vs t-SNE vs UMAP on the Mall Customers Dataset
 
-This repository contains the code and tutorial for a comparative study of three major dimensionality reduction techniques—**Principal Component Analysis (PCA)**, **t-Distributed Stochastic Neighbour Embedding (t-SNE)**, and **Uniform Manifold Approximation and Projection (UMAP)**—applied to the **Mall Customers dataset** from Kaggle.
+This repository contains the code and tutorial for a comparative study of three major dimensionality reduction techniques—**Principal Component Analysis (PCA)**, **t-Distributed Stochastic Neighbour Embedding (t-SNE)**, and **Uniform Manifold Approximation and Projection (UMAP)** pplied to the **Mall Customers dataset** from Kaggle.
 
 The aim of this tutorial is to demonstrate how each method transforms high-dimensional data, how these transformations affect clustering performance, and why nonlinear manifold learning techniques (t-SNE, UMAP) often outperform linear methods (PCA) for uncovering structure in customer segmentation.
 
