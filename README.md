@@ -71,3 +71,70 @@ Recommended (Jupyter):
 pip install numpy pandas scikit-learn matplotlib seaborn umap-learn
 ```
 
+### **2. Run the notebook**
+
+Open:
+
+
+### **3. Ensure dataset is available**
+
+Place the dataset file inside:
+
+
+---
+
+## 📁 Folder Structure
+
+project/
+│
+├── data/
+│ └── Mall_Customers.csv
+│
+├── figures/
+│ ├── pca_kmeans.png
+│ ├── tsne_kmeans.png
+│ ├── umap_kmeans.png
+│ ├── silhouette_comparison.png
+│ └── pca_explained_variance.png
+│
+├── notebook.ipynb
+├── report.pdf (optional)
+├── README.md
+└── LICENSE
+---
+
+## 📈 Results Summary
+
+| Method | Silhouette Score |
+|--------|------------------|
+| PCA    | 0.404 |
+| t-SNE  | 0.528 |
+| UMAP   | 0.644 |
+
+UMAP produced the best clustering quality, followed by t-SNE.  
+PCA performed worst due to its linear nature and inability to capture nonlinear manifold structure.
+
+---
+
+## 📚 References
+
+1. van der Maaten, L., & Hinton, G. (2008). *Visualizing Data using t-SNE.*  
+2. McInnes, L., Healy, J., & Melville, J. (2018). *UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction.*  
+3. Jolliffe, I. (2002). *Principal Component Analysis.* Springer.  
+4. Aggarwal, C. (2018). *Machine Learning for High-Dimensional Data.* Springer.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+See the `LICENSE` file for details.
+
+---
+
+## 🙌 Acknowledgements
+
+- Kaggle for providing the dataset  
+- Developers of PCA, t-SNE, and UMAP  
+- University module instructors for guidance
+
