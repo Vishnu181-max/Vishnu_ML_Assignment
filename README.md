@@ -98,8 +98,8 @@ project/
 │ ├── silhouette_comparison.png
 │ └── pca_explained_variance.png
 │
-├── notebook.ipynb
-├── report.pdf (optional)
+├── 24057022_ML.ipynb
+├── 24057022_mL_report.pdf (optional)
 ├── README.md
 └── LICENSE
 
