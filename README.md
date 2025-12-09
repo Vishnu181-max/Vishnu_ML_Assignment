@@ -85,6 +85,7 @@ Place the dataset file inside:
 
 ## 📁 Folder Structure
 
+```
 project/
 │
 ├── data/
@@ -101,6 +102,8 @@ project/
 ├── report.pdf (optional)
 ├── README.md
 └── LICENSE
+
+```
 ---
 
 ## 📈 Results Summary
